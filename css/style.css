@@ -1,0 +1,48 @@
+:root {
+    --studio-color: #2196F3;
+    --text-color: #757575;
+    --titel-color: #212121;
+    --white-color: #FFFFFF;
+    }
+
+    <!--Шапка-->
+body {background-color: #F5F5F5;}
+
+a:visited {color: #212121;}
+
+ul {list-style: none;}
+
+
+.web {
+    color: var(--studio-color)
+}
+
+.studio-heder {
+    color: #000000;
+}
+
+.navigation-link a:hover {color: var(--studio-color)}
+.navigation-link a:focus {
+    color: var(--studio-color)
+}
+
+.mail-tel a:hover {color: var(--studio-color)}
+.mail-tel a:focus {
+    color: var(--studio-color)
+}
+
+.mail-tel a{
+    color: var(--text-color);
+}
+
+.main-titel {color: var(--white-color)}
+
+.main-button {color: var(--white-color);
+background-color: var(--studio-color);
+border: none
+}
+
+
+
+
+
