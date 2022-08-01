@@ -12,10 +12,16 @@ body {background-color: #F5F5F5
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
 }
 
-a:visited {color: #212121;}
-a {text-decoration:none}
+a:visited {
+    color: #212121;
+}
+a {
+    text-decoration:none
+}
 
-ul {list-style: none;}
+ul {
+    list-style: none;
+}
 
 
 .web {
@@ -26,12 +32,17 @@ ul {list-style: none;}
     color: #000000;
 }
 
-.navigation-link a:hover {color: var(--studio-color)}
+.navigation-link a:hover {
+    color: var(--studio-color)
+}
 .navigation-link a:focus {
     color: var(--studio-color)
 }
 
-.mail-tel a:hover {color: var(--studio-color)}
+.mail-tel a:hover {
+    color: var(--studio-color)
+}
+
 .mail-tel a:focus {
     color: var(--studio-color)
 }
@@ -41,32 +52,65 @@ ul {list-style: none;}
 }
 
 /* Main index*/
-.main-titel {color: var(--white-color)}
-
-.main-button {color: var(--white-color);
-background-color: var(--studio-color);
-border: none;
-cursor: pointer;
+.main-titel {
+    color: var(--white-color)
 }
 
-.benefits p {color: var(--text-color);}
+.main-button {color: var(--white-color); 
+    background-color: var(--studio-color);
+    border: none;
+    cursor: pointer;
+}
 
-.team p {color: var(--text-color);}
+.benefits p {
+    color: var(--text-color);
+}
+
+.team p {
+    color: var(--text-color);
+}
 
 /* Main portfolio */
 
+/* .portfolio-buttons button:active {color: var(--white-color); background-color: var(--studio-color);} */
 
+.portfolio-buttons button:hover {
+    color: var(--white-color); 
+    background-color: var(--studio-color);
+}
+
+.portfolio-buttons button:focus {
+    color: var(--white-color);
+    background-color: var(--studio-color);
+}
+
+.portfolio-buttons button {
+    border: none; 
+    cursor: pointer;
+}
+
+.portfolio p {
+    color: var(--text-color);
+}
 
 
 /* Footer */
 
- .footerback {background-color: var(--background-footer);}
+ .footerback {
+    background-color: var(--background-footer);
+}
 
- .studio-footer {color: var(--white-color);}
+ .studio-footer {
+    color: var(--white-color);
+}
 
- .adress-footer {color: var(--white-color);}
+ .adress-footer {
+    color: var(--white-color);
+}
 
- .adress-footer a {color: rgba(255, 255, 255, 0.6);}
+ .adress-footer a {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 
 
