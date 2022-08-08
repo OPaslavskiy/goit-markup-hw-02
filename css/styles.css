@@ -88,6 +88,7 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #fff;
+  cursor: pointer;
 }
 
 .titel-none {
@@ -127,7 +128,6 @@ body {
 }
 
 .profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -135,7 +135,6 @@ body {
 
 .address {
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #fff;
