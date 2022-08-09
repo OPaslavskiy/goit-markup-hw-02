@@ -96,6 +96,11 @@ body {
   cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #188ce8;
+}
+
 .titel-none {
   display: none;
 }
